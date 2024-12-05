@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Donate Bangladesh</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!------------------------------------- header ---------------------------->
+    <header class="sticky top-0 z-10">
+      <nav class="bg-gray-100 shadow">
+        <div class="navbar w-4/5 mx-auto">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a href="./index.html"><img src="./assets/logo.png" alt="" class="h-8 w-8" /> Donate Bangladesh</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl bg-lime-300" href="./index.html">Home</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-xl flex items-center gap-3">
+              <img src="./assets/logo.png" alt="" class="h-8 w-8" />
+              <li>Donate Bangladesh</li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="flex space-x-1 items-center">
+              <img src="./assets/coin.png" alt="" />
+              <p class="text-xl"><span id="total-amount">5000</span> BDT</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!------------------------------------ main -------------------------------->
+    <main class="w-4/5 mx-auto my-16">
+      <h1 class="font-semibold text-3xl mb-4">Most Askable FAQ</h1>
+      <div class="collapse bg-base-200">
+        <input type="radio" name="my-accordion-1" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+        <div class="collapse-content">
+          <p class="text-justify">The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages like JavaScript can interact with the page. The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+            A web page is a document that can be either displayed in the browser window or as the HTML source. In both cases, it is the same document but the Document Object Model (DOM) representation allows it to be manipulated. As an object-oriented representation of the web page, it can be modified with a scripting language such as JavaScript.
+            For example, the DOM specifies that the querySelectorAll method in this code snippet must return a list of all the <p> elements in the document:</p>
+      </div>
+      <div class="collapse bg-base-200">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+        <div class="collapse-content">
+          <p class="text-justify">Selecting DOM (Document Object Model) elements is a fundamental aspect of web development with JavaScript. It allows developers to interact with and manipulate elements on a webpage dynamically. Proper selection of elements is crucial for tasks such as updating content, adding event listeners, or modifying styles.</p>
+        </div>
+      </div>
+      <div class="collapse bg-base-200">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+        <div class="collapse-content">
+          <p class="text-justify">Event delegation is a technique in JavaScript where event handlers are attached to a parent element rather than to individual child elements. This allows you to handle events for multiple elements efficiently, especially when dealing with dynamically generated content 1  or a large number of elements.   
+           <br>
+           <br>
+           Why is it useful?
+           <br>
+           Improved Performance:
+           By attaching a single event listener to a parent element, you reduce the number of event listeners in the DOM. This can lead to significant performance improvements, especially when dealing with a large number of elements.
+           <br>
+           <br>
+           Dynamic Content:
+           <br>
+           Event delegation is particularly useful when dealing with dynamically generated content. You can attach a single event listener to a static parent element, and it will work for any child elements that are added later.
+           <br>
+           <br>
+           Simplified Event Handling:
+           <br>
+           It simplifies event handling by centralizing the logic in a single event listener. You can use event bubbling or capturing to determine the target element and handle the event accordingly.
+          </p>
+        </div>
+      <div class="collapse bg-base-200">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-content">
+          <p class="text-justify">The Document Object Model (DOM) is a programming interface for HTML, XML, and other documents. It represents the page's structure as a tree of nodes, allowing you to access and modify elements, attributes, and styles.</p>
+        </div>
+      </div>
+    </main>
+    <!---------------------------------------- footer ---------------------------->
+    <footer class="bg-gray-100 p-12">
+        <p class="text-center">&copy; All rights reserved by Donate Bangladesh</p>
+    </footer>
+
+    <script src="./js/donate.js"></script>
+  </body>
+</html>
