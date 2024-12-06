@@ -108,11 +108,6 @@ document.getElementById("history-btn").addEventListener('click', function(){
     // document.getElementById("history-btn").classList.add('bg-lime-400');
     // document.getElementById("donation-btn").classList.remove('bg-lime-400');
     colorOnOff('history-btn');
-    // document.getElementById("history-btn").classList.add('bg-lime-400');
-    // document.getElementById("history-btn").classList.remove('bg-slate-100');
-    // document.getElementById("donation-btn").classList.add('bg-slate-100');
-    // document.getElementById("donation-btn").classList.remove('bg-lime-400');
-
 })
 
 document.getElementById("donation-btn").addEventListener('click', function(){
@@ -122,8 +117,4 @@ document.getElementById("donation-btn").addEventListener('click', function(){
     // document.getElementById("donation-btn").classList.add('bg-lime-400');
     // document.getElementById("history-btn").classList.remove('bg-lime-400');
     colorOnOff('donation-btn');
-    // document.getElementById("donation-btn").classList.add('bg-lime-400');
-    // document.getElementById("donation-btn").classList.remove('bg-slate-100');
-    // document.getElementById("history-btn").classList.add('bg-slate-100');
-    // document.getElementById("history-btn").classList.remove('bg-lime-400');
 })
