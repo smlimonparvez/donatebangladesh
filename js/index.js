@@ -8,7 +8,7 @@ document
     if (
       inputAmount <= 0 ||
       isNaN(inputAmount) ||
-      inputAmount.length <= 0 ||
+      inputAmount.length === 0 ||
       inputAmount > totalAmount
     ) {
       alert("Incorrect Input, Please try again.");
@@ -23,6 +23,7 @@ document
     const newTotalAmount = totalAmount - inputAmount;
     document.getElementById("total-amount").innerText = newTotalAmount;
     document.getElementById("input-amount-1").value = "";
+    document.getElementById('img').classList.add('hidden');
 
     // history push
     const title = document.getElementById("title-1").innerText;
@@ -54,7 +55,7 @@ document
     if (
       inputAmount <= 0 ||
       isNaN(inputAmount) ||
-      inputAmount.length <= 0 ||
+      inputAmount.length === 0 ||
       inputAmount > totalAmount
     ) {
       alert("Incorrect Input, Please try again.");
@@ -69,6 +70,7 @@ document
     const newTotalAmount = totalAmount - inputAmount;
     document.getElementById("total-amount").innerText = newTotalAmount;
     document.getElementById("input-amount-2").value = "";
+    document.getElementById('img').classList.add('hidden');
 
     // history push
     const title = document.getElementById("title-2").innerText;
@@ -100,7 +102,7 @@ document
     if (
       inputAmount <= 0 ||
       isNaN(inputAmount) ||
-      inputAmount.length <= 0 ||
+      inputAmount.length === 0 ||
       inputAmount > totalAmount
     ) {
       alert("Incorrect Input, Please try again.");
@@ -115,6 +117,7 @@ document
     const newTotalAmount = totalAmount - inputAmount;
     document.getElementById("total-amount").innerText = newTotalAmount;
     document.getElementById("input-amount-3").value = "";
+    document.getElementById('img').classList.add('hidden');
 
     // history push
     const title = document.getElementById("title-3").innerText;
